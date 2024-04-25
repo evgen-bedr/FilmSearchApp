@@ -1,0 +1,128 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"Movies app",
+			"frameless": true,
+			"transluscentBg": true,
+			"sizeGrip": "sizeGrip",
+			"navigation":[
+				{
+					"minimize":"minimizeBtn",
+					"close": "closeBtn",
+					"restore":[
+						{
+							"buttonName": "restoreBtn",
+							"normalIcon": ":/icons/icons/square.svg",
+							"maximizedIcon": ":/icons/icons/square.svg"
+						}
+					],
+					"moveWindow": "headerContainer",
+					"tittleBar": "headerContainer"
+				}
+			]
+		}
+	],
+
+	"QCustomSlideMenu": [
+		{
+			"name": "leftMenuContainer",
+			"defaultSize": [{
+				"width": 65,
+				"height": "parent"
+			}],
+			"collapsedSize": [{
+				"width": 65,
+				"height": "parent"
+			}],
+			"expandedSize": [{
+				"width": 150,
+				"height": "parent"
+			}],
+			"toggleButton": [{
+				"buttonName": "homeBtn"
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}]
+		},
+		{
+			"name": "centerMenuContainer",
+			"defaultSize": [{
+				"width": 0,
+				"height": "parent"
+			}],
+			"collapsedSize": [{
+				"width": 0,
+				"height": "parent"
+			}],
+			"expandedSize": [{
+				"width": 150,
+				"height": "parent"
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}]
+		},
+		{
+			"name": "popupSearchContainer",
+			"defaultSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"collapsedSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"expandedSize": [{
+				"width": 600,
+				"height": "400"
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}],
+			"floatPosition": [
+				{
+					"relativeTo": "centralwidget",
+					"position": "top-center",
+					"shadow":[
+						{
+							"blurRadius": 20,
+							"xOffset": 0,
+							"yOffset": 0
+						}
+					]
+				}
+			],
+			"toggleButton": [{
+				"buttonName": "searchMainPushBtn"
+			}]
+		}
+	],
+
+	"QCustomQStackedWidget":[
+		{
+			"name":"menuPages",
+
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"filmsBtn": "filmsMenu",
+							"tvseriesBtn": "serialsMenu",
+							"topBtn": "topFilmMenu",
+							"genresBtn": "genresMenu",
+							"yearBtn": "yearMenu",
+							"countriesBtn": "countryMenu",
+							"actorsBtn": "actorsMenu",
+							"directorsBtn": "directorMenu"
+						}
+					]
+				}
+			]
+
+		}
+	]
+}
