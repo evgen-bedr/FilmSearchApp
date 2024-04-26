@@ -1,17 +1,3 @@
-dbconfig = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'password',
-    'database': 'movies'
-}
-
-dbconfig_search = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'password',
-    'database': 'movies'
-}
-
 LIMIT = 10
 OFFSET = 0
 
