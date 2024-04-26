@@ -1,6 +1,7 @@
 ![Снимок](https://github.com/evgen-bedr/FilmSearchApp/assets/53431753/0845521b-7098-47ba-9b2b-10285c73326a)
 
-Для запуска программы нужно будет скачать и установить gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe
+Для запуска программы нужно будет скачать и установить [gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe)
+
 
 Так же перенести картинки из папки img в D:\img  либо поменять путь для картинок в бд на свой.
 
